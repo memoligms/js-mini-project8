@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    color: black;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.phoneContainer{
+    position: relative;
+    width: 250px;
+    height: 460px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 15px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phoneContainer span{
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.numberInput{
+    width: 100%;
+}
+
+.numberInput input{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: 42px;
+    font-size: 16px;
+}
+
+.results-div{
+    overflow-y: auto;
+    height: 265px;
+    width: 100%;
+}
+
+.results-div p{
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneContainer button{
+    cursor: pointer;
+    margin: 15px 10px;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px 16px;
+    font-size: 23px;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+}
+
+.true{
+    color: green !important;
+}
+
+.false{
+    color: red !important;
+}
